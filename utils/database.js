@@ -10,8 +10,8 @@
 // });
 
 // module.exports = pool.promise();
-//! MySQL
 
+//! MySQL Sequelize
 // const { Sequelize } = require("sequelize");
 
 // const sequelize = new Sequelize("shop", "root", "Linh15042003", {
@@ -22,7 +22,6 @@
 // module.exports = sequelize;
 
 //! MongoDB
-
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
     "mongodb+srv://transon15042003:P0ODb9bgG86W8Gm5@cluster0.usy9d.mongodb.net/shop?retryWrites=true&w=majority&appName=Cluster0";

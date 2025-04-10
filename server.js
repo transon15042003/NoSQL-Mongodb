@@ -44,8 +44,8 @@ app.use(async (req, res, next) => {
 
 app.use("/admin", adminRoutes);
 app.use("/shop", shopRoutes);
-
 app.use(errorController.get404);
+
 connectDB().then((client) => {
     if (client) {
         console.log("Successfully connected to MongoDB");
